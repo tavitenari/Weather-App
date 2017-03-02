@@ -1,0 +1,71 @@
+/*
+Ioane "Tavi" Tenari
+2/18/16
+HW5 - weather.css
+
+This is the cascading style sheet attached to weather.html. 
+I did not modify this file at all.
+*/
+
+/*
+CSE 154, Homework 5 (Weather) 
+You should download and use this weather.css, but do not need to modify it.
+*/
+
+body, button, input, option, select {
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+
+#graph td, #temps {
+	height: 100px;
+	vertical-align: bottom;
+}
+
+#graph td div {
+	background-color: #e7f1fd;
+	border-top: 2px solid #1878f0;
+	font-weight: bold;
+	text-align: center;
+	width: 50px;
+}
+
+#currentTemp, #buttons button {
+	float: left;
+}
+
+#currentTemp {
+	font-size: 26pt;
+
+}
+
+#temp {
+	margin-left: 200px;
+}
+#graph, #temps {
+	clear: left;
+}
+
+q {
+	font-style: italic;
+}
+
+button {
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#location p {
+	color: grey;
+	margin: 0px;
+}
+
+
+.title { 
+	font-size: 20pt;
+}
+
+#temps input {
+	width: 350px;
+}
